@@ -1,0 +1,74 @@
+html, body {
+  direction: rtl;
+  text-align: right;
+}
+
+.header__navbar ul li a {
+  border-left: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.102);
+}
+.header__navbar ul li a i {
+  margin-right: 0;
+  margin-left: 13px;
+}
+.account-item > .content > a:after {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.account-dropdown {
+  right: unset;
+  left: 0;
+}
+.account-dropdown:after {
+  right: unset;
+  left: 33px;
+}
+.account-dropdown__item a i {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.au-btn--submit2 {
+  right: unset;
+  left: 0;
+}
+.statistic__item .icon {
+  right: unset;
+  left: -7px;
+}
+.table-data2.table thead th:first-child {
+  padding-right: 15px;
+  padding-left: 0;
+}
+.table-data-feature .item {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.file_preview_wrap .file_preview_inner_wrap {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.form-check {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+.form-check-input {
+  margin-left: 0;
+  margin-right: -1.25rem;
+}
+.text-right {
+  text-align: left !important;
+}
+.text-left {
+  text-align: right !important;
+}
+.modal-footer>:not(:last-child) {
+  margin-right: 0;
+  margin-left: .25rem;
+}
+.modal-footer>:not(:first-child) {
+  margin-left: 0;
+  margin-right: .25rem;
+}
+.modal-header .close {
+  margin: -1rem auto -1rem -1rem;
+}
